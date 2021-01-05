@@ -1,11 +1,28 @@
 
-{
-	padding: 0;
-	margin: 0;
+body {  
+  display: flex;
+  justify-content:center; 
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: fixed;
 }
-body
-{
-	background-image: url(backgroung.jpg);
-	background-size: cover;
-	background-position: center; 
+
+
+form {
+  background: linear-gradient(to bottom, #66ffcc 10%, #ffffff 119%);
+  font-family:Helvetica;
+  opacity:0.9
 }
+
+
+.tomahawk {
+  display: grid ;
+  grid-template-rows: 60px 60px 60px 60px 50px;
+  
+}
+
+.item > label {
+  font-size: 15;
+  font-family:tahoma;
+}
+
