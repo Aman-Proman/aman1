@@ -6,6 +6,7 @@
 body{
 	background-image: url(backgroung.jpg);
 	background-size: cover;
+	background-position:center;
 	box-sizing: border-box;
 	font-family: sans-serif;
 
